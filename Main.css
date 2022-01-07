@@ -1,0 +1,29 @@
+body{
+    background-color:#F4ECD9;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+#Main{
+    text-align: center;
+    color: #301A0B;
+    font-size: 40px;
+}
+#Main ul{
+    display: inline-block;
+}
+#Main a{
+    text-decoration: none;
+    color:inherit;
+}
+#Main .ans{
+    font-size: 150%;
+    color:#33231F;
+    text-shadow: 3px 2px 1px #301A0B;
+    font-weight: bold;
+}
+#Main .err{
+    font-size: 150%;
+    color: #340C0A;
+    text-shadow: 2px 2px 1px #6E3635;
+    font-weight: bold;
+
+}

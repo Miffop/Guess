@@ -1,0 +1,41 @@
+#Top{
+    text-align: center;
+    font-size: 60px;
+    text-shadow:3px 2px 1px #5b392e;
+    color: #301A0B;
+    font-weight: normal;
+    font-variant: normal;
+}
+#Top table{
+    text-align: center;
+    border-collapse: collapse;
+    border-style: none;
+    width:100%;
+    height: 110px;
+}
+#Top table td{
+    padding: 5px;
+    border-style: none;
+    width: 30%;
+}
+#Top a{
+    text-decoration: none;
+    color:inherit;
+}
+#Top table td:hover{
+    background-color: #5b392e;
+    color:beige;
+    text-shadow: none;
+}
+#Top a:hover{
+    font-size: 110%;
+}
+#Top h1{
+    font-size: 100px;
+    position: relative;
+    top:-40px;
+    border-style: groove none groove none;
+    border-width: 10px;
+    border-color: #CEAE82;
+    padding-bottom: 5px;
+}
