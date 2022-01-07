@@ -27,3 +27,61 @@ body{
     font-weight: bold;
 
 }
+#Main form{
+    border-style: groove none groove none;
+    border-color: #6E3635;
+    border-width: 7px;
+    vertical-align: middle;
+}
+#Main select{
+    overflow:inherit;
+    width: 300px;
+    background-color: inherit;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    border-color: inherit;
+    padding: 5px;
+    margin: 10px;
+}
+#Main select option{
+    overflow: visible;
+}
+#Main select option:hover{
+    background-color: #EBCAC2;
+}
+#Main select option:checked{
+    background-color: #CF876B;
+}
+#Main input[type="submit"]{
+    border-style: solid;
+    border-color: #301A0B;
+    text-shadow:3px 2px 1px #6E3635;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background: transparent;
+    color:inherit;
+    font-size: inherit;
+    font-family: inherit;
+    height: 70px;
+}
+#Main input[type="submit"]:hover{
+    background-color: #301A0B;
+    color:beige;
+    text-shadow: none;
+    font-size: 110%;
+}
+#Main input[type="text"]{
+    border-style: solid;
+    border-color: #301A0B;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px 15px 10px;
+    background: transparent;
+    color:inherit;
+    font-size: inherit;
+    font-family: inherit;
+    height: 70px;
+}
