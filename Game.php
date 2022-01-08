@@ -32,8 +32,8 @@
                 }
                 function EndGame($title)
                 {
-                    echo '<p class="ans">You '.$title.'</p>
-                    <p><a href="Game.php">Again</a></p>';
+                    echo '<p class="ans">'.$title.'</p>
+                    <p><a href="Game.php">Снова</a></p>';
                 }
 
                 if(isset($_POST["start"]))
@@ -47,7 +47,7 @@
                 {
                     if($_COOKIE["atp"]==0)
                     {
-                        EndGame("Lose");
+                        EndGame("Поражение");
                     }
                     else
                     {
@@ -55,24 +55,24 @@
                         $val=(int)$_COOKIE["val"];
                         if(!is_numeric($_POST["try"]))
                         {
-                            echo '<p class="err">Wrong Input. Try Again.</p>';
+                            echo '<p class="err">Некорректный ввод. Попробуйте снова</p>';
                         }
                         else
                         {
                             $cur=$_POST["try"];
                             if($val>$cur)
                             {
-                                echo '<p class="ans">Greater</p>';
+                                echo '<p class="ans">Больше</p>';
                                 setcookie("atp",$_COOKIE["atp"]-1);
                             }
                             elseif($val==$cur)
                             {
-                                EndGame("Win");
+                                EndGame("Победа");
                                 $err=true;
                             }
                             else
                             {
-                                echo '<p class="ans">Lower</p>';
+                                echo '<p class="ans">Меньше</p>';
                                 setcookie("atp",$_COOKIE["atp"]-1);
                             }
                         }
