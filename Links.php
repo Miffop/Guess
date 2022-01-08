@@ -10,12 +10,11 @@
             <?php include "hat.php";?>
         </div>
         <div id="Main">
-            <p class="ans">Links</p>
-            <?php
-            
-
-
-            ?>
+            <p class="ans">Мои сотсети</p>
+            <p>
+                <a href="https://github.com/Miffop/" target="_blank"><img src="GitHub.png" width="100px"></a>
+                <a href="https://vk.com/iffop" target="_blank"><img src="vk.png" width="100px"></a>
+            </p>
 
         </div>
     </body>

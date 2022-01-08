@@ -33,7 +33,7 @@
                 function EndGame($title)
                 {
                     echo '<p class="ans">'.$title.'</p>
-                    <p><a href="Game.php">Снова</a></p>';
+                    <p><a href="Game.php" target="_self">Снова</a></p>';
                 }
 
                 if(isset($_POST["start"]))
