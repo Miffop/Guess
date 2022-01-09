@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello</title>
+        <title>Guess</title>
+        <link rel="icon" href="question.png"/>
         <link rel="stylesheet" href="Top.css"/>
         <link rel="stylesheet" href="Main.css"/>
     </head>
